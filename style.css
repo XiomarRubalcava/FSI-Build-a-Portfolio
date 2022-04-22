@@ -1,5 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Im prepping my webpage to be edited manually */
 
+/* Navbar */
 
 body, div, h1 {
                color:blueviolet
