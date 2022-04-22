@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3c3c3c;
+    background-color: #3c3c3c;   /* the black bar*/
     position: sticky;
     top: 0;
 }
@@ -28,7 +28,7 @@
 .navbar ul li a {
     text-decoration: none;
     color: white;
-    padding: 8px 25px;
+    padding: 8px 25px;     /* the white text */
     transition: all .5s ease;
 }
 .navbar ul li a:hover {
@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: column;
     background-color: (#3c3c3c, 0, 0, 0.5);
-    height: 840px; 
+    height: 840px;                  /* "Xiomar Rubalcava" */
     justify-content: center;
     align-items: center;
     color: white
@@ -55,7 +55,7 @@
     right: 0;
     background: url('images/imgBluePlaid.jpeg') no-repeat center center/cover;
     height: 900px;
-    width: 100%;
+    width: 100%;     /* Background image */
     z-index: -1;
     opacity: .8;
 }
@@ -63,29 +63,31 @@
 .main{
     display: flex;
     flex-direction: column;
-    border: 1px solid white
+    border: 1px solid white;
     align-items: center;
     position: absolute;
     top: 30%
 }
-.headings {
+.headings {   /* Also Xiomar Rubalcava */ 
     font-family: century;
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     margin: 40px 0px;
+    background-color: #3c3c3c;
+    box-shadow: 0 0 10px #f4dc9c, 0 0 20px #f4dc9c
 }
 .btn {
     padding: 10px 35px;
     background-color: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #f4dc9c; /* Hire Me */
+    color: #0f017a;
     outline: none;
-    color: black
+    color: #0f017a;
 }
 .btn:hover {
     cursor: pointer;
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    background-color: #f4dc9c;  /* hire me with curser */
+    color: #0f017a;
+    box-shadow: 0 0 5px #1474EC, 0 0 10px #1474EC, 0 0 15px #1474EC;
     font-weight: bold;
 }
