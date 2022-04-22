@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #3c3c3c;
     position: sticky;
     top: 0;
 }
@@ -27,14 +27,14 @@
 }
 .navbar ul li a {
     text-decoration: none;
-    color:white;
+    color: #c9ced6;
     padding: 8px 25px;
     transition: all .5s ease;
 }
 .navbar ul li a:hover {
-    background-color: white;
-    color:black;
-    box-shadow: 0 0 10px white;
+    background-color: #f4dc9c;
+    color: #0f017a;                 /* This is the inside when mouse goes over */
+    box-shadow: 0 0 10px #1474EC;
 }
 /* Navbar Completed */
 
