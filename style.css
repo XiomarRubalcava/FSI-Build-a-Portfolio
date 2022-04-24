@@ -138,7 +138,7 @@ font-size: 5rem;
 
 
 /* Portfolio Section */
-
+/* (Need To Add images) */ 
 #portfolio {
     display: flex;
     flex-direction: column;
@@ -160,4 +160,51 @@ font-size: 5rem;
 }
 
 /* PORTFOLIO SECTION */
+
+#services {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, red 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.box:hover {
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px red;
+}
+
+.box img { /* Need to insert .png for images in html */
+    width: 1px;
+    height: 1px;
+    background-color: white;
+    padding: 10px;
+}
+
+/* Portfolio Section */
+
+/* Contact Me */
 
