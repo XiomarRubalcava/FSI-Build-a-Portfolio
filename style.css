@@ -11,6 +11,10 @@
 
 /* Im prepping my webpage to be edited manually */
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navbar */
 .navbar {
     display: flex;
