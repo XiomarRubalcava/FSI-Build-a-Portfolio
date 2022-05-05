@@ -13,6 +13,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #293033;
 }
 
 /* Navbar */
@@ -36,14 +37,14 @@ html {
 }
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: #FFCF00;
     padding: 8px 25px;     /* the white text */
     transition: all .5s ease;
 }
 .navbar ul li a:hover {
-    background-color: #f4dc9c;
-    color: #0f017a;                 /* This is the inside when mouse goes over */
-    box-shadow: 0 0 10px #1474EC;
+    background-color: #FFCF00 ;
+    color: #D90000;                 /* This is the inside when mouse goes over */
+    box-shadow: 0 0 16px #FF6900;
 }
 /* Navbar Completed */
 
@@ -55,7 +56,7 @@ html {
     height: 840px;                  /* "Xiomar Rubalcava" */
     justify-content: center;
     align-items: center;
-    color: white
+    color: #FFCF00;
 } 
 #home::before {
     content:"";
@@ -83,21 +84,21 @@ html {
     text-align: center;
     margin: 100px 0px;
     background-color: #3c3c3c;
-    box-shadow: 0 0 10px #f4dc9c, 0 0 20px #f4dc9c
+    box-shadow: 0 0 10px #FF6900, 0 0 20px #FF6900
 }
 .btn {
     padding: 10px 35px;
     background-color: transparent;
-    border: 1px solid #f4dc9c; /* Hire Me */
-    color: #0f017a;
+    border: 1px solid #FFCF00; /* Hire Me */
+    color: #FFCF00;
     outline: none;
-    color: #0f017a;
+    color: #FFCF00;
 }
 .btn:hover {
     cursor: pointer;
-    background-color: #f4dc9c;  /* hire me with curser */
-    color: #0f017a;
-    box-shadow: 0 0 5px #1474EC, 0 0 10px #1474EC, 0 0 15px #1474EC;
+    background-color: #FFCF00;  /* hire me with curser */
+    color: #D90000;
+    box-shadow: 0 0 5px #FF6900, 0 0 10px #FF6900, 0 0 15px #FF6900;
     font-weight: bold;
 }
 
