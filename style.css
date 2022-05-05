@@ -62,7 +62,7 @@ html {
     position: absolute;
     top: 0;
     right: 0;
-    background: url('images/imgBluePlaid.jpeg') no-repeat center center/cover;
+    background: url('images/classroombackround.jpg') no-repeat center center/cover;
     height: 900px;
     width: 100%;     /* Background image */
     z-index: -1;
