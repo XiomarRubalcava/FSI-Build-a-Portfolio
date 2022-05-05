@@ -110,8 +110,8 @@ display: flex;
 box-sizing: border-box;
 font-size: 3rem;
 text-align: center;
-color: white;
-background-color: rgba(0, 0, 0, 0.9);
+color: #FFCF00;
+background-color: rgba(0, 0, 0, 1);
 }
 
 #about {
@@ -136,6 +136,7 @@ background-color: rgba(0, 0, 0, 0.9);
     flex-direction: column;
     text-align: justify;
     padding: 10px;
+    color: #FFCF00;
 }
 
 #intro h2 {
